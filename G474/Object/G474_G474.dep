@@ -1,0 +1,272 @@
+Dependencies for Project 'G474', Target 'G474': (DO NOT MODIFY !)
+F (.\main.c)(0x64D0A1B0)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/main.o -MD)
+I (..\System\Inc\mythread.h)(0x64D0A213)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+I (..\Board\board.h)(0x64D0A060)
+I (..\Drivers\Inc\led.h)(0x64D79037)
+I (..\Board\stm32g474xx.h)(0x64A7AFAE)
+I (..\Include\core_cm4.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\Include\cmsis_version.h)(0x64D094EB)
+I (..\Include\cmsis_compiler.h)(0x64D094EB)
+I (..\Include\cmsis_armclang_ltm.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\Include\mpu_armv7.h)(0x64D094EB)
+I (..\Board\system_stm32g4xx.h)(0x64D094EB)
+I (..\System\Inc\sys.h)(0x64D79037)
+F (.\board.c)(0x64D5DF67)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/board.o -MD)
+I (D:\Keil\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+I (..\Board\board.h)(0x64D0A060)
+I (..\Drivers\Inc\led.h)(0x64D79037)
+I (..\Board\stm32g474xx.h)(0x64A7AFAE)
+I (..\Include\core_cm4.h)(0x64D094EB)
+I (..\Include\cmsis_version.h)(0x64D094EB)
+I (..\Include\cmsis_compiler.h)(0x64D094EB)
+I (..\Include\cmsis_armclang_ltm.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\Include\mpu_armv7.h)(0x64D094EB)
+I (..\Board\system_stm32g4xx.h)(0x64D094EB)
+I (..\System\Inc\sys.h)(0x64D79037)
+F (.\rtconfig.h)(0x64D0A249)()
+F (.\system_stm32g4xx.c)(0x64D094EB)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/system_stm32g4xx.o -MD)
+I (D:\Keil\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x603C21C0)
+I (D:\Keil\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h)(0x603C21C0)
+I (..\Include\core_cm4.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\Include\cmsis_version.h)(0x64D094EB)
+I (..\Include\cmsis_compiler.h)(0x64D094EB)
+I (..\Include\cmsis_armclang_ltm.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\Include\mpu_armv7.h)(0x64D094EB)
+I (D:\Keil\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x603C21C0)
+F (.\system_stm32g4xx.h)(0x64D094EB)()
+F (..\Drivers\Src\led.c)(0x64D79294)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/led.o -MD)
+I (..\Drivers\Inc\led.h)(0x64D79037)
+I (..\Board\stm32g474xx.h)(0x64A7AFAE)
+I (..\Include\core_cm4.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\Include\cmsis_version.h)(0x64D094EB)
+I (..\Include\cmsis_compiler.h)(0x64D094EB)
+I (..\Include\cmsis_armclang_ltm.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\Include\mpu_armv7.h)(0x64D094EB)
+I (..\Board\system_stm32g4xx.h)(0x64D094EB)
+F (..\Drivers\Src\iic.c)(0x64D4E07B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/iic.o -MD)
+I (..\Drivers\Inc\iic.h)(0x64D78FC4)
+I (..\Board\stm32g474xx.h)(0x64A7AFAE)
+I (..\Include\core_cm4.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\Include\cmsis_version.h)(0x64D094EB)
+I (..\Include\cmsis_compiler.h)(0x64D094EB)
+I (..\Include\cmsis_armclang_ltm.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\Include\mpu_armv7.h)(0x64D094EB)
+I (..\Board\system_stm32g4xx.h)(0x64D094EB)
+I (..\System\Inc\delay.h)(0x64D79030)
+F (..\Drivers\Src\hard_iic.c)(0x64D5DF65)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/hard_iic.o -MD)
+I (..\Drivers\Inc\hard_iic.h)(0x64D79037)
+I (..\Board\stm32g474xx.h)(0x64A7AFAE)
+I (..\Include\core_cm4.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\Include\cmsis_version.h)(0x64D094EB)
+I (..\Include\cmsis_compiler.h)(0x64D094EB)
+I (..\Include\cmsis_armclang_ltm.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\Include\mpu_armv7.h)(0x64D094EB)
+I (..\Board\system_stm32g4xx.h)(0x64D094EB)
+F (..\Drivers\Src\usart.c)(0x64D5DBC3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/usart.o -MD)
+I (..\Drivers\Inc\usart.h)(0x64D79037)
+I (..\Board\stm32g474xx.h)(0x64A7AFAE)
+I (..\Include\core_cm4.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\Include\cmsis_version.h)(0x64D094EB)
+I (..\Include\cmsis_compiler.h)(0x64D094EB)
+I (..\Include\cmsis_armclang_ltm.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\Include\mpu_armv7.h)(0x64D094EB)
+I (..\Board\system_stm32g4xx.h)(0x64D094EB)
+F (.\startup_stm32g474xx.s)(0x64A7AFAE)(--cpu Cortex-M4.fp -g --pd "__MICROLIB SETA 1"-I.\RTE\_G474-ID:\Keil\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-ID:\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524"--pd "STM32G474xx SETA 1"--list ..\object\startup_stm32g474xx.lst--xref -o ..\object\startup_stm32g474xx.o--depend ..\object\startup_stm32g474xx.d)
+F (..\System\Src\delay.c)(0x64D09FFB)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/delay.o -MD)
+I (..\System\Inc\delay.h)(0x64D79030)
+I (..\Board\stm32g474xx.h)(0x64A7AFAE)
+I (..\Include\core_cm4.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\Include\cmsis_version.h)(0x64D094EB)
+I (..\Include\cmsis_compiler.h)(0x64D094EB)
+I (..\Include\cmsis_armclang_ltm.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\Include\mpu_armv7.h)(0x64D094EB)
+I (..\Board\system_stm32g4xx.h)(0x64D094EB)
+F (..\System\Src\sys.c)(0x64D094EB)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/sys.o -MD)
+I (..\System\Inc\sys.h)(0x64D79037)
+I (..\Board\stm32g474xx.h)(0x64A7AFAE)
+I (..\Include\core_cm4.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\Include\cmsis_version.h)(0x64D094EB)
+I (..\Include\cmsis_compiler.h)(0x64D094EB)
+I (..\Include\cmsis_armclang_ltm.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\Include\mpu_armv7.h)(0x64D094EB)
+I (..\Board\system_stm32g4xx.h)(0x64D094EB)
+F (..\System\Src\mythread.c)(0x64D7936F)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/mythread.o -MD)
+I (..\System\Inc\mythread.h)(0x64D0A213)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+I (..\Board\board.h)(0x64D0A060)
+I (..\Drivers\Inc\led.h)(0x64D79037)
+I (..\Board\stm32g474xx.h)(0x64A7AFAE)
+I (..\Include\core_cm4.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (..\Include\cmsis_version.h)(0x64D094EB)
+I (..\Include\cmsis_compiler.h)(0x64D094EB)
+I (..\Include\cmsis_armclang_ltm.h)(0x64D094EB)
+I (D:\Keil\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\Include\mpu_armv7.h)(0x64D094EB)
+I (..\Board\system_stm32g4xx.h)(0x64D094EB)
+I (..\System\Inc\sys.h)(0x64D79037)
+F (..\rt-thread\src\clock.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/clock.o -MD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+F (..\rt-thread\src\components.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/components.o -MD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+F (..\rt-thread\src\cpu.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/cpu.o -MD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+F (..\rt-thread\src\idle.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/idle.o -MD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+F (..\rt-thread\src\ipc.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/ipc.o -MD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+F (..\rt-thread\src\irq.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/irq.o -MD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+F (..\rt-thread\src\kservice.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/kservice.o -MD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+F (..\rt-thread\src\mem.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/mem.o -MD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+F (..\rt-thread\src\memheap.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/memheap.o -MD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+F (..\rt-thread\src\mempool.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/mempool.o -MD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+F (..\rt-thread\src\object.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/object.o -MD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+F (..\rt-thread\src\scheduler.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/scheduler.o -MD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+F (..\rt-thread\src\slab.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/slab.o -MD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+F (..\rt-thread\src\thread.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/thread.o -MD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+F (..\rt-thread\src\timer.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/timer.o -MD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+I (..\rt-thread\include\rthw.h)(0x60ED86CD)
+F (..\rt-thread\libcpu\arm\cortex-m4\cpuport.c)(0x60ED86CD)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Board -I ../Drivers/Inc -I ../Drivers/Src -I ../Include -I ../System/Inc -I ../System/Src -I ../rt-thread/components/finsh -I ../rt-thread/include -I ../rt-thread/include/libc-I./RTE/_G474-ID:/Keil/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-ID:/Keil/ARM/CMSIS/Include-D__UVISION_VERSION="524" -DSTM32G474xx -DHSE1-o ../object/cpuport.o -MD)
+I (..\rt-thread\include\rtthread.h)(0x60ED86CD)
+I (..\Board\rtconfig.h)(0x64D0A249)
+I (..\rt-thread\include\rtdebug.h)(0x60ED86CD)
+I (..\rt-thread\include\rtdef.h)(0x60ED86CD)
+I (D:\Keil\ARM\ARMCLANG\include\stdarg.h)(0x588CAFD0)
+I (..\rt-thread\include\rtservice.h)(0x60ED86CD)
+F (..\rt-thread\libcpu\arm\cortex-m4\context_rvds.S)(0x60ED86CD)(--cpu Cortex-M4.fp -g --pd "__MICROLIB SETA 1"-I.\RTE\_G474-ID:\Keil\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-ID:\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524"--pd "STM32G474xx SETA 1"--list ..\object\context_rvds.lst--xref -o ..\object\context_rvds.o--depend ..\object\context_rvds.d)
