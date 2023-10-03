@@ -13,12 +13,12 @@
 #include <rtthread.h>
 #include "board.h"
 
-#define _SCB_BASE (0xE000E010UL)
-#define _SYSTICK_CTRL (*(rt_uint32_t *)(_SCB_BASE + 0x0))
-#define _SYSTICK_LOAD (*(rt_uint32_t *)(_SCB_BASE + 0x4))
-#define _SYSTICK_VAL (*(rt_uint32_t *)(_SCB_BASE + 0x8))
-#define _SYSTICK_CALIB (*(rt_uint32_t *)(_SCB_BASE + 0xC))
-#define _SYSTICK_PRI (*(rt_uint8_t *)(0xE000ED23UL))
+#define _SCB_BASE       (0xE000E010UL)
+#define _SYSTICK_CTRL   (*(rt_uint32_t *)   (_SCB_BASE + 0x0))
+#define _SYSTICK_LOAD   (*(rt_uint32_t *)   (_SCB_BASE + 0x4))
+#define _SYSTICK_VAL    (*(rt_uint32_t *)   (_SCB_BASE + 0x8))
+#define _SYSTICK_CALIB  (*(rt_uint32_t *)   (_SCB_BASE + 0xC))
+#define _SYSTICK_PRI    (*(rt_uint8_t *)    (0xE000ED23UL))
 
 // Updates the variable SystemCoreClock and must be called
 // whenever the core clock is changed during program execution.
@@ -70,6 +70,7 @@ void rt_hw_board_init()
     _SysTick_Config(SystemCoreClock / RT_TICK_PER_SECOND);
 
     SYSCLK_170MHz();
+    usart_init(115200);
     led_init();
 
     /* Call components board initial (use INIT_BOARD_EXPORT()) */

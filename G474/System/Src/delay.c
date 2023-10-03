@@ -29,7 +29,8 @@ void delay_us(uint32_t nus)
 	while (nus--)
 	{
 		i = 10; // 自己定义
-		while (i--);
+		while (i--)
+			;
 	}
 }
 

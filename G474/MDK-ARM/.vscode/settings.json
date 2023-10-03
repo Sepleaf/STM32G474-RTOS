@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "adc_dma.h": "c",
+        "stm32g474xx.h": "c",
+        "sys_config.h": "c",
+        "thread.h": "c",
+        "dma.h": "c",
+        "board.h": "c",
+        "delay.h": "c",
+        "led.h": "c",
+        "stm32g474_config.h": "c",
+        "iic.h": "c",
+        "timer.h": "c",
+        "adc.h": "c",
+        "key.h": "c",
+        "dac.h": "c",
+        "spi.h": "c",
+        "can.h": "c",
+        "oled.h": "c",
+        "pwm.h": "c",
+        "usart.h": "c",
+        "exti.h": "c",
+        "rng.h": "c",
+        "dp_pwm.h": "c",
+        "gray.h": "c"
+    }
+}

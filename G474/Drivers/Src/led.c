@@ -1,32 +1,49 @@
 #include "led.h"
 
-#define GPIOx 			GPIOE
-#define GPIO_CLK 		(1 << 4)
-#define GPIO_PIN 		0
-
+/**
+ **********************************************************
+ * @brief   Initialize the LED
+ * @param   none
+ * @retval  none
+ * @date 2023.09.24
+ **********************************************************
+ **/
 void led_init(void)
 {
-	RCC->AHB2ENR 	&= ~GPIO_CLK; 				// 清除原来的设置
-	RCC->AHB2ENR 	|= GPIO_CLK;  				// 使能 PORTB 口时钟
-	
-	GPIOx->MODER 	&= ~(0x3 << (GPIO_PIN * 2));
-	GPIOx->MODER 	|= 0x1 << (GPIO_PIN * 2); 	// 初始化PB11为输出模式
-	GPIOx->OTYPER 	&= ~(0x1 << GPIO_PIN);   	// PB11输出推挽
-	GPIOx->OSPEEDR 	&= ~(0x3 << (GPIO_PIN * 2));
-	GPIOx->OSPEEDR 	|= 0x2 << (GPIO_PIN * 2); 	// PB11高速模式
-	GPIOx->PUPDR 	&= ~(0x3 << (GPIO_PIN * 2));
-	GPIOx->PUPDR 	|= 0x1 << (GPIO_PIN * 2); 	// PB11上拉
-	GPIOx->ODR 		&= ~(0x1 << GPIO_PIN);		
-	GPIOx->ODR 		|= 0x1 << GPIO_PIN; 		// PB11输出1（高电平）
+	RCC->AHB2ENR |= RCC_AHB2ENR_GPIOEEN;
+
+	gpio_set(GPIOE, 0, GPIO_MODE_OUT, GPIO_OTYPE_PP, HIGH_SPEED, GPIO_PULL_UP);
+	gpio_set(GPIOE, 1, GPIO_MODE_OUT, GPIO_OTYPE_PP, HIGH_SPEED, GPIO_PULL_UP);
+	gpio_set(GPIOE, 2, GPIO_MODE_OUT, GPIO_OTYPE_PP, HIGH_SPEED, GPIO_PULL_UP);
+
+	led_off(0);
+	led_off(1);
+	led_off(2);
 }
 
-void led_on()
+/**
+ **********************************************************
+ * @brief   turn on the LED
+ * @param   n: select LED -> 0 ~ 1
+ * @retval  none
+ * @version 2023.09.24
+ **********************************************************
+ **/
+void led_off(uint8_t n)
 {
-	GPIOx->ODR &= ~(0x1 << GPIO_PIN);
-	GPIOx->ODR |= 0x1 << GPIO_PIN;
+	GPIOE->ODR &= ~(0x1UL << n);
+	GPIOE->ODR |= (0x1UL << n);
 }
 
-void led_off()
+/**
+ **********************************************************
+ * @brief   turn off the LED
+ * @param   n: select LED -> 0 ~ 1
+ * @retval  none
+ * @version 2023.09.24
+ **********************************************************
+ **/
+void led_on(uint8_t n)
 {
-	GPIOx->ODR &= ~(0x1 << GPIO_PIN);
+	GPIOE->ODR &= ~(0x1UL << n);
 }
